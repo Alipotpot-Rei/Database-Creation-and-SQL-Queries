@@ -31,7 +31,7 @@ The system is a database and software solution designed to streamline operations
 
 - Using pgAdmin 4 which is a database administration and development platform specifically designed for PostgreSQL, a database is created by defining the table name and column names of each table, and uploading each of the created csv files into the corresponding created table.
 
-## SQL Queries  
+### SQL Queries  
   
 
 
