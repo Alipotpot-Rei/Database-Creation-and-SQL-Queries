@@ -2,7 +2,7 @@
 
 ### Project Description 
 
-The system is a database and software solution designed to streamline operations for my dream business which is a board games arena that rents out board games to customers, sells food & drinks for on-site consumption, and manages staff schedules and customer transactions. I thought of creating this project when i saw a Youtube video which shows the creation of a database for a pizza delivery store. 
+The system is a database and software solution designed to streamline operations for my dream business which is a board games arena that rents out board games to customers, sells food & drinks for on-site consumption, and manages staff schedules and customer transactions. I thought of creating this project when I saw a Youtube video which shows the creation of a database for a pizza delivery store. 
 
 ### Database Structure (PostgreSQL)
   
@@ -32,8 +32,9 @@ The system is a database and software solution designed to streamline operations
 - Using pgAdmin 4 which is a database administration and development platform specifically designed for PostgreSQL, a database is created by defining the table name and column names of each table, and uploading each of the created csv files into the corresponding created table.
 
 ### SQL Queries  
-  
 
+The csv file of each table in the database is uploaded into the AI chatbot, and I asked the AI chatbot to create questions or instructions which can be answered with SQL queries. I also added some questions which I deemed necessary, and which are not included in the questions provided by the AI chatbot. The questions range from easy, intermediate and hard in difficulty. Since I have become fond of AI, I also asked AI to help me in creating the SQL queries.    
 
-  
-
+- Here is the SQL query used in answering my question, " what is the total combined revenue from both food/beverage sales and board game rentals?" Food_revenue and rental_revenue are each used as a Common Table Expression (CTE) in a sub-query for calculating the corresponding revenue. The food_revenue is calculated by multiplying item prices by quantities sold. The rental revenue is calculated by multiplying hourly rates by rental durations. For precise decimal calculations, ::numeric casting is used.
+ 
+![psql1](https://github.com/user-attachments/assets/3c09e6b8-d9cb-4508-a825-f974dd0ea31d)
