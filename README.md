@@ -45,7 +45,7 @@ The system is a database and software solution designed to streamline operations
  
 ### SQL Queries  
 
-The csv file of each table in the database is uploaded into the AI chatbot, and I asked the AI chatbot to create questions or instructions which can be answered with SQL queries. I also added some questions which I deemed necessary, and which are not included in the questions provided by the AI chatbot. The questions range from easy, intermediate and hard in difficulty. Since I have become fond of AI, I also asked AI to help me in creating the SQL queries.    
+The csv file of each table in the database is uploaded into the AI chatbot, and I asked the AI chatbot to create questions or instructions which can be answered with SQL queries. I also added some questions which I deemed necessary, and which are not included in the questions provided by the AI chatbot. The questions range from easy to and hard in difficulty. Since I have become fond of AI, I also asked AI to help me in creating the SQL queries.    
 
 - Here is the SQL query used in answering my question, " what is the total combined revenue from both food/beverage sales and board game rentals?" Food_revenue and rental_revenue are each used as a Common Table Expression (CTE) in a sub-query for calculating the corresponding revenue. The food_revenue is calculated by multiplying item prices by quantities sold. The rental revenue is calculated by multiplying hourly rates by rental durations. For precise decimal calculations, ::numeric casting is used.
  
